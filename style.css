@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background: dimgray;
+    color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+#content {
+    padding: 3rem;
+    box-sizing: border-box;
+    border-style: dashed;
+    border-color: #f9f9f9;
+    border-radius: 1rem;
+}
+
+select {
+    background: #f9f9f9;
+    color: black;
+}
+
+input {
+    background: #f9f9f9;
+    color: black;
+}
